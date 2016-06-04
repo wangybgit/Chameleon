@@ -58,7 +58,7 @@ sudo ./wifidog -f -d 7
     - 参考[这里](https://wiki.openwrt.org/doc/recipes/routedap)，为路由器创建一个非桥接模式的网络接口wifi。
     - 新建一个wifi网络，默认名为OpenWrt，在其`General Setup`里面将`Network`改为上一步新建的接口wifi。此wifi网络即为公有的wifi。
     - 拔掉电源，重启路由器。
--服务器端环境搭建与项目部署
+- 服务器端环境搭建与项目部署
     服务器主要用于维护用户信息，并且为路由器提供相应的信息反馈（路由器与设备交互过程中会向服务器查询设备是否注册）。
     （1）服务器的环境配置
         -用putty远程连接服务器
